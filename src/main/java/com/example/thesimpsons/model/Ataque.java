@@ -3,11 +3,11 @@ package com.example.thesimpsons.model;
 public class Ataque {
 
     private String nombre;
-    private int dano;
+    private int daño;
 
     public Ataque(String nombre, int daño) {
         this.nombre = nombre;
-        this.dano = daño;
+        this.daño = daño;
     }
 
     public String getNombre() {
@@ -19,10 +19,10 @@ public class Ataque {
     }
 
     public int getDaño() {
-        return dano;
+        return daño;
     }
 
     public void setDaño(int daño) {
-        this.dano = daño;
+        this.daño = daño;
     }
 }
