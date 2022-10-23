@@ -1,19 +1,18 @@
 package com.example.thesimpsons.model;
 
-import java.io.Serializable;
-
 public class Usuario {
 
     private long id;
     private String email;
     private String nombre;
-    private String contrasena;
+    private String contraseña;
 
-    public Usuario(long id, String email, String nombre, String contrasena) {
+
+    public Usuario(long id, String email, String nombre, String contraseña) {
         this.id = id;
         this.email = email;
         this.nombre = nombre;
-        this.contrasena = contrasena;
+        this.contraseña = contraseña;
     }
 
     public long getId() {
@@ -40,11 +39,11 @@ public class Usuario {
         this.nombre = nombre;
     }
 
-    public String getContrasena() {
-        return contrasena;
+    public String getContraseña() {
+        return contraseña;
     }
 
-    public void setContrasena(String contrasena) {
-        this.contrasena = contrasena;
+    public void setContraseña(String contraseña) {
+        this.contraseña = contraseña;
     }
 }
